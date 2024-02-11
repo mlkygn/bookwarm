@@ -1,0 +1,15 @@
+header {
+  background-color: #fff;
+}
+
+.text-animate {
+  background-image: linear-gradient(to right, black, #ff8d8d, #e7c9c9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow-animation 150s linear infinite;
+}
+@keyframes rainbow-animation {
+  to {
+    background-position: 4500vh;
+  }
+}
